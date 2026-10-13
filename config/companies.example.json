@@ -1,0 +1,15 @@
+{
+  "_note": "Company career boards to watch. The slug is the last part of the board URL, e.g. boards.greenhouse.io/<slug>, jobs.lever.co/<slug>, jobs.ashbyhq.com/<slug>. Only razorpay was checked; open each board URL in a browser once to confirm the slug before relying on it.",
+  "greenhouse": [
+    { "slug": "razorpaysoftwareprivatelimited", "name": "Razorpay" },
+    { "slug": "postman", "name": "Postman" },
+    { "slug": "phonepe", "name": "PhonePe" }
+  ],
+  "lever": [
+    { "slug": "cred", "name": "CRED" },
+    { "slug": "meesho", "name": "Meesho" }
+  ],
+  "ashby": [
+    { "slug": "zepto", "name": "Zepto" }
+  ]
+}

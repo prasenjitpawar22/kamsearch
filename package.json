@@ -1,0 +1,31 @@
+{
+  "name": "kamsearch",
+  "version": "0.1.0",
+  "description": "A personal job-search war room: fetch jobs, filter, pick the right resume, draft outreach, track applications, and practice.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "node src/dev.js",
+    "build": "vite build",
+    "start": "vite build && node --disable-warning=ExperimentalWarning src/server.js",
+    "server": "node --disable-warning=ExperimentalWarning src/server.js",
+    "fetch": "node --disable-warning=ExperimentalWarning src/cli-fetch.js",
+    "setup": "node src/setup.js",
+    "typecheck": "tsc -p web --noEmit",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

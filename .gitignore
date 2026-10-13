@@ -1,0 +1,12 @@
+node_modules/
+data/
+*.log
+
+# Personal files: never commit these
+config/profile.json
+config/companies.json
+resumes/*
+!resumes/README.md
+!resumes/resumes.example.json
+web/dist/
+CLAUDE.local.md

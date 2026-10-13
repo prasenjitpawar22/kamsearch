@@ -1,0 +1,37 @@
+{
+  "me": {
+    "name": "Your Name",
+    "experienceYears": 0,
+    "pitch": "One or two lines in your own words: what you build and what you are looking for next."
+  },
+
+  "searches": [
+    { "keywords": "frontend developer", "location": "Pune, Maharashtra, India" },
+    { "keywords": "frontend developer", "location": "India", "remote": true },
+    { "keywords": "software engineer", "location": "Pune, Maharashtra, India" },
+    { "keywords": "software engineer", "location": "India", "remote": true }
+  ],
+
+  "sources": {
+    "linkedin": true,
+    "naukri": true,
+    "greenhouse": true,
+    "lever": true,
+    "ashby": true
+  },
+
+  "maxAgeDays": 3,
+  "pagesPerSearch": 2,
+  "maxDescriptionFetches": 40,
+  "fetchEveryHours": 0,
+  "dailyGoal": 5,
+
+  "blockedCompanies": [],
+  "excludeTitleWords": ["intern", "internship", "trainee", "director", "vice president", "head of"],
+  "requireTitleWords": [],
+
+  "locationInclude": ["pune", "india", "remote", "anywhere"],
+  "locationExclude": ["united states", "usa", "u.s.", "canada", "europe", "emea", "united kingdom", "uk", "germany", "latam", "americas"],
+
+  "minScore": 0
+}

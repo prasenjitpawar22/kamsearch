@@ -1,0 +1,19 @@
+{
+  "noOfJobs": 1,
+  "jobDetails": [
+    {
+      "title": "Frontend Developer",
+      "jobId": "111",
+      "companyName": "Acme Software",
+      "jdURL": "/job-listings-frontend-developer-acme-pune-3-to-5-years-111",
+      "jobDescription": "<p>Build dashboards in <b>React</b>.</p>",
+      "tagsAndSkills": "react,typescript,redux",
+      "createdDate": 1760313600000,
+      "placeholders": [
+        { "type": "experience", "label": "3-5 Yrs" },
+        { "type": "salary", "label": "Not disclosed" },
+        { "type": "location", "label": "Pune" }
+      ]
+    }
+  ]
+}

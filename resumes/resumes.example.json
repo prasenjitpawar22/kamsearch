@@ -1,0 +1,18 @@
+[
+  {
+    "id": "swe",
+    "title": "Software Engineer",
+    "file": "Your_Name_Software_Engineer.pdf",
+    "textFile": "swe.txt",
+    "titleHints": ["software engineer", "software developer", "backend", "full stack", "fullstack", "sde"],
+    "keywords": ["javascript", "typescript", "node.js", "java", "python", "rest api", "microservices", "sql", "mongodb", "aws", "docker", "git", "ci/cd", "system design", "react"]
+  },
+  {
+    "id": "frontend",
+    "title": "Frontend Engineer",
+    "file": "Your_Name_Frontend.pdf",
+    "textFile": "frontend.txt",
+    "titleHints": ["frontend", "front end", "front-end", "ui developer", "ui engineer", "react developer", "angular developer"],
+    "keywords": ["javascript", "typescript", "react", "next.js", "redux", "html", "css", "tailwind", "angular", "webpack", "vite", "jest", "accessibility", "responsive design", "git"]
+  }
+]
