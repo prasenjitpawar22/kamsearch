@@ -52,6 +52,20 @@ Then:
 
 Many company networks block job sites and log every attempt to reach them. Run KamSearch at home on a personal laptop.
 
+## Using several laptops (vault)
+
+Your database, profile, company list and resumes are git-ignored, so they never reach this public repo. To carry them between laptops, KamSearch syncs them with a **private** git repo of your own, the "vault" (see `vault.json` and `scripts/vault.js`, which work in any project).
+
+| When | Run |
+|---|---|
+| Starting on a laptop | `npm run vault:pull` |
+| Done on that laptop | `npm run vault:push` (stop the app first) |
+| Check what differs | `npm run vault:status` |
+
+- Point `repo` in `vault.json` at your own private repo.
+- `pull` backs up the files it replaces into `.vault-backup/`.
+- Put a `.novault` file in the project on machines that must never hold your data, such as a work laptop.
+
 ## AI features (drafts, tailoring, quizzes)
 
 These call the [Claude Code](https://claude.com/claude-code) CLI you're already logged into (`claude -p`), so no API key is needed. The model gets the job text and your resume text only, with every tool switched off. Set `KAMSEARCH_MODEL` to choose a model, or `CLAUDE_CMD` if `claude` isn't on your PATH.

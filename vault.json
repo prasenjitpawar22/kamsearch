@@ -1,0 +1,5 @@
+{
+  "repo": "https://github.com/prasenjitpawar22/vault.git",
+  "name": "kamsearch",
+  "paths": ["data/kamsearch.db", "config/profile.json", "config/companies.json", "resumes/"]
+}

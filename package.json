@@ -15,7 +15,10 @@
     "fetch": "node --disable-warning=ExperimentalWarning src/cli-fetch.js",
     "setup": "node src/setup.js",
     "typecheck": "tsc -p web --noEmit",
-    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\"",
+    "vault:pull": "node scripts/vault.js pull",
+    "vault:push": "node scripts/vault.js push",
+    "vault:status": "node scripts/vault.js status"
   },
   "dependencies": {
     "react": "19.3.0",

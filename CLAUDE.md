@@ -13,6 +13,12 @@ Repo: https://github.com/prasenjitpawar22/kamsearch
 - **Personal data stays out of git.** `config/profile.json`, `config/companies.json`, `resumes/*` and `data/` are git-ignored. Only `*.example.json` files are committed.
 - **The backend (`src/`) has zero npm dependencies**: it uses Node built-ins only. The frontend uses React, Vite and TypeScript, which the user approved on 2026-10-13. Ask before adding other packages.
 
+## Vault (multi-laptop sync)
+
+- Personal data (`data/kamsearch.db`, `config/profile.json`, `config/companies.json`, `resumes/`) syncs through the user's **private** repo https://github.com/prasenjitpawar22/vault under `kamsearch/`. It is configured in `vault.json`, and the tool is `scripts/vault.js` (zero-dependency, generic; the master copy is `tools/vault.js` in the vault repo, so keep them in sync).
+- Commands: `npm run vault:pull` / `vault:push` / `vault:status`. The vault clone lives in `~/.vault`. `pull` backs up replaced files to `.vault-backup/`. A `.novault` file blocks syncing on a machine.
+- Never put personal data into this repo; it is public.
+
 ## Stack
 
 - Node.js ≥ 22.13 (developed on 24), ES modules.

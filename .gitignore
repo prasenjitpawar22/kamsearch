@@ -10,3 +10,5 @@ resumes/*
 !resumes/resumes.example.json
 web/dist/
 CLAUDE.local.md
+.vault-backup/
+.novault
